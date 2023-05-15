@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>cucumber-junit-multi-module</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>cucumber-junit-multi-module</name>
+    <description>cucumber-junit-multi-module</description>
+    <packaging>pom</packaging>
+
+    <parent>
+        <groupId>es.dionisiocortes</groupId>
+        <artifactId>acceptance-tests-with-cucumber-and-junit-5</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <modules>
+        <module>api</module>
+        <module>acceptance-tests</module>
+    </modules>
+
+</project>
